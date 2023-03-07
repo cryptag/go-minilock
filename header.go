@@ -3,7 +3,7 @@ package minilock
 import (
 	"encoding/json"
 
-	"github.com/cathalgarvey/go-minilock/taber"
+	"github.com/cryptag/go-minilock/taber"
 )
 
 // FileInfo is the marrow at the heart of the miniLock header that contains

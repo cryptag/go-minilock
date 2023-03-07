@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/cathalgarvey/go-minilock/taber"
+	"github.com/cryptag/go-minilock/taber"
 	"github.com/dchest/blake2s"
 )
 

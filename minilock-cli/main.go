@@ -10,8 +10,8 @@ import (
 	"io/ioutil"
 
 	"github.com/alecthomas/kingpin"
-	"github.com/cathalgarvey/go-minilock"
-	"github.com/cathalgarvey/go-minilock/taber"
+	"github.com/cryptag/go-minilock"
+	"github.com/cryptag/go-minilock/taber"
 	"github.com/howeyc/gopass"
 )
 

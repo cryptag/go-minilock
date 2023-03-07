@@ -2,7 +2,7 @@
 by Cathal Garvey, Copyright Oct 2015, Proudly [AGPL licensed](https://gnu.org/licenses/agpl.html).
 
 ### How do I use this?
-Get thee to [Taber's Godoc](https://godoc.org/github.com/cathalgarvey/go-minilock/taber).
+Get thee to [Taber's Godoc](https://godoc.org/github.com/cryptag/go-minilock/taber).
 
 ### What is this?
 This is the technical heavy lifting behind encryption in [go-minilock](), separated from the main repository to keep things tidy and make it easier to re-use for other stuff.

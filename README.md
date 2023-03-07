@@ -55,7 +55,7 @@ go beyond manual human-to-human cryptography and extend into the automated, netw
 decentralised sphere.
 
 ### Usage
-Documentation for the library can be found at [godoc](https://godoc.org/github.com/cathalgarvey/go-minilock).
+Documentation for the library can be found at [godoc](https://godoc.org/github.com/cryptag/go-minilock).
 Functionality is deliberately broken into construction of the encrypted data itself and constructing
 the headers that assist in decryption and obfuscation of communicating parties; this is to enable
 use of the library for more than just miniLock-of-files, but also because other systems built atop
@@ -63,10 +63,10 @@ miniLock (such as [Peerio](https://peerio.com)) use detached, updateable headers
 facilitate social file-sharing.
 
 Much of the slightly-lower-level crypto stuff is in a sub-package called "taber",
-which can be imported separately with `import "github.com/cathalgarvey/go-minilock/taber"`,
-and documentation for which is [here on Godoc](https://godoc.org/github.com/cathalgarvey/go-minilock/taber).
+which can be imported separately with `import "github.com/cryptag/go-minilock/taber"`,
+and documentation for which is [here on Godoc](https://godoc.org/github.com/cryptag/go-minilock/taber).
 
-For terminal usage of go-miniLock, you can install the tool with: `go get -u github.com/cathalgarvey/go-minilock/minilock-cli`.
+For terminal usage of go-miniLock, you can install the tool with: `go get -u github.com/cryptag/go-minilock/minilock-cli`.
 Usage is simple enough and needs improvement:
 
     minilock-cli encrypt <file> <your email> <recipient1> [<recipient2>...]

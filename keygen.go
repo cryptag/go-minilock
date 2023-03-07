@@ -1,7 +1,7 @@
 package minilock
 
 import (
-	"github.com/cathalgarvey/go-minilock/taber"
+	"github.com/cryptag/go-minilock/taber"
 )
 
 // GenerateKey makes a key from an email address and passphrase, consistent
